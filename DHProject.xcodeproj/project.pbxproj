@@ -380,77 +380,6 @@
 		1AB107F11A91E0A000722279 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105AF1A91E0A000722279 /* unzip.c */; };
 		1AB107F21A91E0A000722279 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105B11A91E0A000722279 /* zip.c */; };
 		1AB107F31A91E0A000722279 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105B41A91E0A000722279 /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107F41A91E0A000722279 /* bee.services.alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105B81A91E0A000722279 /* bee.services.alipay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107F51A91E0A000722279 /* bee.services.alipay.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105B91A91E0A000722279 /* bee.services.alipay.md */; };
-		1AB107F61A91E0A000722279 /* ServiceAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105BC1A91E0A000722279 /* ServiceAlipay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107F71A91E0A000722279 /* ServiceAlipay_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105BE1A91E0A000722279 /* ServiceAlipay_Config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107F81A91E0A000722279 /* ServiceAlipay_Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105C01A91E0A000722279 /* ServiceAlipay_Order.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107F91A91E0A000722279 /* AlixPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105C41A91E0A000722279 /* AlixPay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107FA1A91E0A000722279 /* AlixPayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105C61A91E0A000722279 /* AlixPayOrder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107FB1A91E0A000722279 /* AlixPayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105C81A91E0A000722279 /* AlixPayResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107FC1A91E0A000722279 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105CB1A91E0A000722279 /* DataVerifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107FD1A91E0A000722279 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105CD1A91E0A000722279 /* RSADataVerifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107FE1A91E0A000722279 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105D01A91E0A000722279 /* DataSigner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB107FF1A91E0A000722279 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105D21A91E0A000722279 /* MD5DataSigner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108001A91E0A000722279 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB105D41A91E0A000722279 /* RSADataSigner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108011A91E0A000722279 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106021A91E0A000722279 /* openssl_wrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108021A91E0A000722279 /* libalixpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB106251A91E0A000722279 /* libalixpay.a */; };
-		1AB108031A91E0A100722279 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB106261A91E0A000722279 /* libcrypto.a */; };
-		1AB108041A91E0A100722279 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB106271A91E0A000722279 /* libssl.a */; };
-		1AB108051A91E0A100722279 /* bee.services.location.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1062A1A91E0A000722279 /* bee.services.location.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108061A91E0A100722279 /* bee.services.location.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1062B1A91E0A000722279 /* bee.services.location.md */; };
-		1AB108071A91E0A100722279 /* ServiceLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1062E1A91E0A000722279 /* ServiceLocation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108081A91E0A100722279 /* bee.services.push.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106311A91E0A000722279 /* bee.services.push.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108091A91E0A100722279 /* bee.services.push.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106321A91E0A000722279 /* bee.services.push.md */; };
-		1AB1080A1A91E0A100722279 /* ServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106351A91E0A000722279 /* ServicePush.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1080B1A91E0A100722279 /* ServicePush_Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106371A91E0A000722279 /* ServicePush_Notification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1080C1A91E0A100722279 /* bee.services.share.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1063A1A91E0A000722279 /* bee.services.share.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1080D1A91E0A100722279 /* ServiceShare.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1063C1A91E0A000722279 /* ServiceShare.bundle */; };
-		1AB1080E1A91E0A100722279 /* ServiceShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1063E1A91E0A000722279 /* ServiceShare.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1080F1A91E0A100722279 /* ServiceShare_ActivityBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106401A91E0A000722279 /* ServiceShare_ActivityBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108101A91E0A100722279 /* ServiceShare_ActivityBoard.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1AB106411A91E0A000722279 /* ServiceShare_ActivityBoard.xml */; };
-		1AB108111A91E0A100722279 /* ServiceShare_ActivityWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106431A91E0A000722279 /* ServiceShare_ActivityWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108121A91E0A100722279 /* ServiceShare_AuthorizeBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106451A91E0A000722279 /* ServiceShare_AuthorizeBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108131A91E0A100722279 /* ServiceShare_AuthorizeBoard.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1AB106461A91E0A000722279 /* ServiceShare_AuthorizeBoard.xml */; };
-		1AB108141A91E0A100722279 /* ServiceShare_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106481A91E0A000722279 /* ServiceShare_Post.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108151A91E0A100722279 /* ServiceShare_Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1064A1A91E0A000722279 /* ServiceShare_Utility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108161A91E0A100722279 /* ServiceShare_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1064C1A91E0A000722279 /* ServiceShare_Window.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108171A91E0A100722279 /* bee.services.share.sinaweibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1064F1A91E0A000722279 /* bee.services.share.sinaweibo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108181A91E0A100722279 /* bee.services.share.sinaweibo.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106501A91E0A000722279 /* bee.services.share.sinaweibo.md */; };
-		1AB108191A91E0A100722279 /* ServiceShare_SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106531A91E0A000722279 /* ServiceShare_SinaWeibo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1081A1A91E0A100722279 /* ServiceShare_SinaWeibo_API.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106551A91E0A000722279 /* ServiceShare_SinaWeibo_API.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1081B1A91E0A100722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106571A91E0A000722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1081C1A91E0A100722279 /* ServiceShare_SinaWeibo_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106591A91E0A000722279 /* ServiceShare_SinaWeibo_Config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1081D1A91E0A100722279 /* bee.services.share.tencentweibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1065C1A91E0A000722279 /* bee.services.share.tencentweibo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1081E1A91E0A100722279 /* bee.services.share.tencentweibo.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1065D1A91E0A000722279 /* bee.services.share.tencentweibo.md */; };
-		1AB1081F1A91E0A100722279 /* ServiceShare_TencentWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106601A91E0A000722279 /* ServiceShare_TencentWeibo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108201A91E0A100722279 /* ServiceShare_TencentWeibo_API.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106621A91E0A000722279 /* ServiceShare_TencentWeibo_API.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108211A91E0A100722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106641A91E0A000722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108221A91E0A100722279 /* ServiceShare_TencentWeibo_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106661A91E0A000722279 /* ServiceShare_TencentWeibo_Config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108231A91E0A100722279 /* bee.services.share.weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106691A91E0A000722279 /* bee.services.share.weixin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108241A91E0A100722279 /* bee.services.share.weixin.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1066A1A91E0A000722279 /* bee.services.share.weixin.md */; };
-		1AB108251A91E0A100722279 /* ServiceShare_Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1066D1A91E0A000722279 /* ServiceShare_Weixin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108261A91E0A100722279 /* ServiceShare_Weixin_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1066F1A91E0A000722279 /* ServiceShare_Weixin_Config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108271A91E0A100722279 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB106721A91E0A000722279 /* libWeChatSDK.a */; };
-		1AB108281A91E0A100722279 /* bee.services.siri.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106771A91E0A000722279 /* bee.services.siri.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108291A91E0A100722279 /* bee.services.siri.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106781A91E0A000722279 /* bee.services.siri.md */; };
-		1AB1082A1A91E0A100722279 /* ServiceSiri.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1067B1A91E0A000722279 /* ServiceSiri.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1082B1A91E0A100722279 /* ServiceSiri_Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1067D1A91E0A000722279 /* ServiceSiri_Board.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1082C1A91E0A100722279 /* ServiceSiri_Board.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1067E1A91E0A000722279 /* ServiceSiri_Board.xml */; };
-		1AB1082D1A91E0A100722279 /* ServiceSiri_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106801A91E0A000722279 /* ServiceSiri_Config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1082E1A91E0A100722279 /* ServiceSiri_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106821A91E0A000722279 /* ServiceSiri_Window.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1082F1A91E0A100722279 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB106841A91E0A000722279 /* iflyMSC.framework */; };
-		1AB108331A91E0A100722279 /* bee.services.wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106911A91E0A000722279 /* bee.services.wizard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108341A91E0A100722279 /* bee.services.wizard.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106921A91E0A000722279 /* bee.services.wizard.md */; };
-		1AB108351A91E0A100722279 /* ServiceWizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106951A91E0A000722279 /* ServiceWizard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108361A91E0A100722279 /* ServiceWizard_Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106971A91E0A000722279 /* ServiceWizard_Board.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108371A91E0A100722279 /* ServiceWizard_Board.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1AB106981A91E0A000722279 /* ServiceWizard_Board.xml */; };
-		1AB108381A91E0A100722279 /* ServiceWizard_Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1069A1A91E0A000722279 /* ServiceWizard_Config.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB108391A91E0A100722279 /* ServiceWizard_CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1069C1A91E0A000722279 /* ServiceWizard_CustomCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1083A1A91E0A100722279 /* ServiceWizard_CustomCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1069D1A91E0A000722279 /* ServiceWizard_CustomCell.xml */; };
-		1AB1083B1A91E0A100722279 /* ServiceWizard_PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1069F1A91E0A000722279 /* ServiceWizard_PhotoCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AB1083C1A91E0A100722279 /* ServiceWizard_PhotoCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1AB106A01A91E0A000722279 /* ServiceWizard_PhotoCell.xml */; };
-		1AB1083D1A91E0A100722279 /* ServiceWizard_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB106A21A91E0A000722279 /* ServiceWizard_Window.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1AB108501A91E0C400722279 /* DHAPIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB108441A91E0C400722279 /* DHAPIBase.m */; };
 		1AB108511A91E0C400722279 /* DHAPIHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB108461A91E0C400722279 /* DHAPIHeader.m */; };
 		1AB108521A91E0C400722279 /* DHAPIMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB108481A91E0C400722279 /* DHAPIMessage.m */; };
@@ -1241,205 +1170,6 @@
 		1AB105B21A91E0A000722279 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		1AB105B31A91E0A000722279 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		1AB105B41A91E0A000722279 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
-		1AB105B71A91E0A000722279 /* bee.services.alipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.alipay.h; sourceTree = "<group>"; };
-		1AB105B81A91E0A000722279 /* bee.services.alipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.alipay.m; sourceTree = "<group>"; };
-		1AB105B91A91E0A000722279 /* bee.services.alipay.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.alipay.md; sourceTree = "<group>"; };
-		1AB105BB1A91E0A000722279 /* ServiceAlipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceAlipay.h; sourceTree = "<group>"; };
-		1AB105BC1A91E0A000722279 /* ServiceAlipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceAlipay.m; sourceTree = "<group>"; };
-		1AB105BD1A91E0A000722279 /* ServiceAlipay_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceAlipay_Config.h; sourceTree = "<group>"; };
-		1AB105BE1A91E0A000722279 /* ServiceAlipay_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceAlipay_Config.m; sourceTree = "<group>"; };
-		1AB105BF1A91E0A000722279 /* ServiceAlipay_Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceAlipay_Order.h; sourceTree = "<group>"; };
-		1AB105C01A91E0A000722279 /* ServiceAlipay_Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceAlipay_Order.m; sourceTree = "<group>"; };
-		1AB105C31A91E0A000722279 /* AlixPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPay.h; sourceTree = "<group>"; };
-		1AB105C41A91E0A000722279 /* AlixPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPay.m; sourceTree = "<group>"; };
-		1AB105C51A91E0A000722279 /* AlixPayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPayOrder.h; sourceTree = "<group>"; };
-		1AB105C61A91E0A000722279 /* AlixPayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPayOrder.m; sourceTree = "<group>"; };
-		1AB105C71A91E0A000722279 /* AlixPayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPayResult.h; sourceTree = "<group>"; };
-		1AB105C81A91E0A000722279 /* AlixPayResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPayResult.m; sourceTree = "<group>"; };
-		1AB105CA1A91E0A000722279 /* DataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVerifier.h; sourceTree = "<group>"; };
-		1AB105CB1A91E0A000722279 /* DataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVerifier.m; sourceTree = "<group>"; };
-		1AB105CC1A91E0A000722279 /* RSADataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataVerifier.h; sourceTree = "<group>"; };
-		1AB105CD1A91E0A000722279 /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
-		1AB105CF1A91E0A000722279 /* DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSigner.h; sourceTree = "<group>"; };
-		1AB105D01A91E0A000722279 /* DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSigner.m; sourceTree = "<group>"; };
-		1AB105D11A91E0A000722279 /* MD5DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5DataSigner.h; sourceTree = "<group>"; };
-		1AB105D21A91E0A000722279 /* MD5DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5DataSigner.m; sourceTree = "<group>"; };
-		1AB105D31A91E0A000722279 /* RSADataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataSigner.h; sourceTree = "<group>"; };
-		1AB105D41A91E0A000722279 /* RSADataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataSigner.m; sourceTree = "<group>"; };
-		1AB105D71A91E0A000722279 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
-		1AB105D81A91E0A000722279 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
-		1AB105D91A91E0A000722279 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
-		1AB105DA1A91E0A000722279 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
-		1AB105DB1A91E0A000722279 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
-		1AB105DC1A91E0A000722279 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
-		1AB105DD1A91E0A000722279 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
-		1AB105DE1A91E0A000722279 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
-		1AB105DF1A91E0A000722279 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
-		1AB105E01A91E0A000722279 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
-		1AB105E11A91E0A000722279 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
-		1AB105E21A91E0A000722279 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
-		1AB105E31A91E0A000722279 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
-		1AB105E41A91E0A000722279 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
-		1AB105E51A91E0A000722279 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
-		1AB105E61A91E0A000722279 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
-		1AB105E71A91E0A000722279 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
-		1AB105E81A91E0A000722279 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
-		1AB105E91A91E0A000722279 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
-		1AB105EA1A91E0A000722279 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
-		1AB105EB1A91E0A000722279 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
-		1AB105EC1A91E0A000722279 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
-		1AB105ED1A91E0A000722279 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
-		1AB105EE1A91E0A000722279 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
-		1AB105EF1A91E0A000722279 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
-		1AB105F01A91E0A000722279 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
-		1AB105F11A91E0A000722279 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		1AB105F21A91E0A000722279 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
-		1AB105F31A91E0A000722279 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
-		1AB105F41A91E0A000722279 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
-		1AB105F51A91E0A000722279 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		1AB105F61A91E0A000722279 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
-		1AB105F71A91E0A000722279 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
-		1AB105F81A91E0A000722279 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
-		1AB105F91A91E0A000722279 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
-		1AB105FA1A91E0A000722279 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
-		1AB105FB1A91E0A000722279 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		1AB105FC1A91E0A000722279 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
-		1AB105FD1A91E0A000722279 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
-		1AB105FE1A91E0A000722279 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
-		1AB105FF1A91E0A000722279 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
-		1AB106001A91E0A000722279 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
-		1AB106011A91E0A000722279 /* openssl_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl_wrapper.h; sourceTree = "<group>"; };
-		1AB106021A91E0A000722279 /* openssl_wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openssl_wrapper.m; sourceTree = "<group>"; };
-		1AB106031A91E0A000722279 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
-		1AB106041A91E0A000722279 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
-		1AB106051A91E0A000722279 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
-		1AB106061A91E0A000722279 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
-		1AB106071A91E0A000722279 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
-		1AB106081A91E0A000722279 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
-		1AB106091A91E0A000722279 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
-		1AB1060A1A91E0A000722279 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
-		1AB1060B1A91E0A000722279 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
-		1AB1060C1A91E0A000722279 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
-		1AB1060D1A91E0A000722279 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
-		1AB1060E1A91E0A000722279 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
-		1AB1060F1A91E0A000722279 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
-		1AB106101A91E0A000722279 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
-		1AB106111A91E0A000722279 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
-		1AB106121A91E0A000722279 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
-		1AB106131A91E0A000722279 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
-		1AB106141A91E0A000722279 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
-		1AB106151A91E0A000722279 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
-		1AB106161A91E0A000722279 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
-		1AB106171A91E0A000722279 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
-		1AB106181A91E0A000722279 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
-		1AB106191A91E0A000722279 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
-		1AB1061A1A91E0A000722279 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
-		1AB1061B1A91E0A000722279 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
-		1AB1061C1A91E0A000722279 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
-		1AB1061D1A91E0A000722279 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
-		1AB1061E1A91E0A000722279 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
-		1AB1061F1A91E0A000722279 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
-		1AB106201A91E0A000722279 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
-		1AB106211A91E0A000722279 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
-		1AB106221A91E0A000722279 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
-		1AB106231A91E0A000722279 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
-		1AB106251A91E0A000722279 /* libalixpay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libalixpay.a; sourceTree = "<group>"; };
-		1AB106261A91E0A000722279 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		1AB106271A91E0A000722279 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		1AB106291A91E0A000722279 /* bee.services.location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.location.h; sourceTree = "<group>"; };
-		1AB1062A1A91E0A000722279 /* bee.services.location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.location.m; sourceTree = "<group>"; };
-		1AB1062B1A91E0A000722279 /* bee.services.location.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.location.md; sourceTree = "<group>"; };
-		1AB1062D1A91E0A000722279 /* ServiceLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocation.h; sourceTree = "<group>"; };
-		1AB1062E1A91E0A000722279 /* ServiceLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocation.m; sourceTree = "<group>"; };
-		1AB106301A91E0A000722279 /* bee.services.push.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.push.h; sourceTree = "<group>"; };
-		1AB106311A91E0A000722279 /* bee.services.push.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.push.m; sourceTree = "<group>"; };
-		1AB106321A91E0A000722279 /* bee.services.push.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.push.md; sourceTree = "<group>"; };
-		1AB106341A91E0A000722279 /* ServicePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePush.h; sourceTree = "<group>"; };
-		1AB106351A91E0A000722279 /* ServicePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePush.m; sourceTree = "<group>"; };
-		1AB106361A91E0A000722279 /* ServicePush_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePush_Notification.h; sourceTree = "<group>"; };
-		1AB106371A91E0A000722279 /* ServicePush_Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePush_Notification.m; sourceTree = "<group>"; };
-		1AB106391A91E0A000722279 /* bee.services.share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.share.h; sourceTree = "<group>"; };
-		1AB1063A1A91E0A000722279 /* bee.services.share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.share.m; sourceTree = "<group>"; };
-		1AB1063C1A91E0A000722279 /* ServiceShare.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ServiceShare.bundle; sourceTree = "<group>"; };
-		1AB1063D1A91E0A000722279 /* ServiceShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare.h; sourceTree = "<group>"; };
-		1AB1063E1A91E0A000722279 /* ServiceShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare.m; sourceTree = "<group>"; };
-		1AB1063F1A91E0A000722279 /* ServiceShare_ActivityBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_ActivityBoard.h; sourceTree = "<group>"; };
-		1AB106401A91E0A000722279 /* ServiceShare_ActivityBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_ActivityBoard.m; sourceTree = "<group>"; };
-		1AB106411A91E0A000722279 /* ServiceShare_ActivityBoard.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceShare_ActivityBoard.xml; sourceTree = "<group>"; };
-		1AB106421A91E0A000722279 /* ServiceShare_ActivityWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_ActivityWindow.h; sourceTree = "<group>"; };
-		1AB106431A91E0A000722279 /* ServiceShare_ActivityWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_ActivityWindow.m; sourceTree = "<group>"; };
-		1AB106441A91E0A000722279 /* ServiceShare_AuthorizeBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_AuthorizeBoard.h; sourceTree = "<group>"; };
-		1AB106451A91E0A000722279 /* ServiceShare_AuthorizeBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_AuthorizeBoard.m; sourceTree = "<group>"; };
-		1AB106461A91E0A000722279 /* ServiceShare_AuthorizeBoard.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceShare_AuthorizeBoard.xml; sourceTree = "<group>"; };
-		1AB106471A91E0A000722279 /* ServiceShare_Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_Post.h; sourceTree = "<group>"; };
-		1AB106481A91E0A000722279 /* ServiceShare_Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_Post.m; sourceTree = "<group>"; };
-		1AB106491A91E0A000722279 /* ServiceShare_Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_Utility.h; sourceTree = "<group>"; };
-		1AB1064A1A91E0A000722279 /* ServiceShare_Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_Utility.m; sourceTree = "<group>"; };
-		1AB1064B1A91E0A000722279 /* ServiceShare_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_Window.h; sourceTree = "<group>"; };
-		1AB1064C1A91E0A000722279 /* ServiceShare_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_Window.m; sourceTree = "<group>"; };
-		1AB1064E1A91E0A000722279 /* bee.services.share.sinaweibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.share.sinaweibo.h; sourceTree = "<group>"; };
-		1AB1064F1A91E0A000722279 /* bee.services.share.sinaweibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.share.sinaweibo.m; sourceTree = "<group>"; };
-		1AB106501A91E0A000722279 /* bee.services.share.sinaweibo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.share.sinaweibo.md; sourceTree = "<group>"; };
-		1AB106521A91E0A000722279 /* ServiceShare_SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_SinaWeibo.h; sourceTree = "<group>"; };
-		1AB106531A91E0A000722279 /* ServiceShare_SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_SinaWeibo.m; sourceTree = "<group>"; };
-		1AB106541A91E0A000722279 /* ServiceShare_SinaWeibo_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_SinaWeibo_API.h; sourceTree = "<group>"; };
-		1AB106551A91E0A000722279 /* ServiceShare_SinaWeibo_API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_SinaWeibo_API.m; sourceTree = "<group>"; };
-		1AB106561A91E0A000722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_SinaWeibo_AuthorizeBoard.h; sourceTree = "<group>"; };
-		1AB106571A91E0A000722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_SinaWeibo_AuthorizeBoard.m; sourceTree = "<group>"; };
-		1AB106581A91E0A000722279 /* ServiceShare_SinaWeibo_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_SinaWeibo_Config.h; sourceTree = "<group>"; };
-		1AB106591A91E0A000722279 /* ServiceShare_SinaWeibo_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_SinaWeibo_Config.m; sourceTree = "<group>"; };
-		1AB1065B1A91E0A000722279 /* bee.services.share.tencentweibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.share.tencentweibo.h; sourceTree = "<group>"; };
-		1AB1065C1A91E0A000722279 /* bee.services.share.tencentweibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.share.tencentweibo.m; sourceTree = "<group>"; };
-		1AB1065D1A91E0A000722279 /* bee.services.share.tencentweibo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.share.tencentweibo.md; sourceTree = "<group>"; };
-		1AB1065F1A91E0A000722279 /* ServiceShare_TencentWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_TencentWeibo.h; sourceTree = "<group>"; };
-		1AB106601A91E0A000722279 /* ServiceShare_TencentWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_TencentWeibo.m; sourceTree = "<group>"; };
-		1AB106611A91E0A000722279 /* ServiceShare_TencentWeibo_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_TencentWeibo_API.h; sourceTree = "<group>"; };
-		1AB106621A91E0A000722279 /* ServiceShare_TencentWeibo_API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_TencentWeibo_API.m; sourceTree = "<group>"; };
-		1AB106631A91E0A000722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_TencentWeibo_AuthorizeBoard.h; sourceTree = "<group>"; };
-		1AB106641A91E0A000722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_TencentWeibo_AuthorizeBoard.m; sourceTree = "<group>"; };
-		1AB106651A91E0A000722279 /* ServiceShare_TencentWeibo_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_TencentWeibo_Config.h; sourceTree = "<group>"; };
-		1AB106661A91E0A000722279 /* ServiceShare_TencentWeibo_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_TencentWeibo_Config.m; sourceTree = "<group>"; };
-		1AB106681A91E0A000722279 /* bee.services.share.weixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.share.weixin.h; sourceTree = "<group>"; };
-		1AB106691A91E0A000722279 /* bee.services.share.weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.share.weixin.m; sourceTree = "<group>"; };
-		1AB1066A1A91E0A000722279 /* bee.services.share.weixin.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.share.weixin.md; sourceTree = "<group>"; };
-		1AB1066C1A91E0A000722279 /* ServiceShare_Weixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_Weixin.h; sourceTree = "<group>"; };
-		1AB1066D1A91E0A000722279 /* ServiceShare_Weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_Weixin.m; sourceTree = "<group>"; };
-		1AB1066E1A91E0A000722279 /* ServiceShare_Weixin_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceShare_Weixin_Config.h; sourceTree = "<group>"; };
-		1AB1066F1A91E0A000722279 /* ServiceShare_Weixin_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceShare_Weixin_Config.m; sourceTree = "<group>"; };
-		1AB106721A91E0A000722279 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		1AB106731A91E0A000722279 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		1AB106741A91E0A000722279 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		1AB106761A91E0A000722279 /* bee.services.siri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.siri.h; sourceTree = "<group>"; };
-		1AB106771A91E0A000722279 /* bee.services.siri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.siri.m; sourceTree = "<group>"; };
-		1AB106781A91E0A000722279 /* bee.services.siri.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.siri.md; sourceTree = "<group>"; };
-		1AB1067A1A91E0A000722279 /* ServiceSiri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceSiri.h; sourceTree = "<group>"; };
-		1AB1067B1A91E0A000722279 /* ServiceSiri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceSiri.m; sourceTree = "<group>"; };
-		1AB1067C1A91E0A000722279 /* ServiceSiri_Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceSiri_Board.h; sourceTree = "<group>"; };
-		1AB1067D1A91E0A000722279 /* ServiceSiri_Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceSiri_Board.m; sourceTree = "<group>"; };
-		1AB1067E1A91E0A000722279 /* ServiceSiri_Board.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceSiri_Board.xml; sourceTree = "<group>"; };
-		1AB1067F1A91E0A000722279 /* ServiceSiri_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceSiri_Config.h; sourceTree = "<group>"; };
-		1AB106801A91E0A000722279 /* ServiceSiri_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceSiri_Config.m; sourceTree = "<group>"; };
-		1AB106811A91E0A000722279 /* ServiceSiri_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceSiri_Window.h; sourceTree = "<group>"; };
-		1AB106821A91E0A000722279 /* ServiceSiri_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceSiri_Window.m; sourceTree = "<group>"; };
-		1AB106841A91E0A000722279 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
-		1AB106901A91E0A000722279 /* bee.services.wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.wizard.h; sourceTree = "<group>"; };
-		1AB106911A91E0A000722279 /* bee.services.wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.wizard.m; sourceTree = "<group>"; };
-		1AB106921A91E0A000722279 /* bee.services.wizard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.wizard.md; sourceTree = "<group>"; };
-		1AB106941A91E0A000722279 /* ServiceWizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWizard.h; sourceTree = "<group>"; };
-		1AB106951A91E0A000722279 /* ServiceWizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWizard.m; sourceTree = "<group>"; };
-		1AB106961A91E0A000722279 /* ServiceWizard_Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWizard_Board.h; sourceTree = "<group>"; };
-		1AB106971A91E0A000722279 /* ServiceWizard_Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWizard_Board.m; sourceTree = "<group>"; };
-		1AB106981A91E0A000722279 /* ServiceWizard_Board.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceWizard_Board.xml; sourceTree = "<group>"; };
-		1AB106991A91E0A000722279 /* ServiceWizard_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWizard_Config.h; sourceTree = "<group>"; };
-		1AB1069A1A91E0A000722279 /* ServiceWizard_Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWizard_Config.m; sourceTree = "<group>"; };
-		1AB1069B1A91E0A000722279 /* ServiceWizard_CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWizard_CustomCell.h; sourceTree = "<group>"; };
-		1AB1069C1A91E0A000722279 /* ServiceWizard_CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWizard_CustomCell.m; sourceTree = "<group>"; };
-		1AB1069D1A91E0A000722279 /* ServiceWizard_CustomCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceWizard_CustomCell.xml; sourceTree = "<group>"; };
-		1AB1069E1A91E0A000722279 /* ServiceWizard_PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWizard_PhotoCell.h; sourceTree = "<group>"; };
-		1AB1069F1A91E0A000722279 /* ServiceWizard_PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWizard_PhotoCell.m; sourceTree = "<group>"; };
-		1AB106A01A91E0A000722279 /* ServiceWizard_PhotoCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceWizard_PhotoCell.xml; sourceTree = "<group>"; };
-		1AB106A11A91E0A000722279 /* ServiceWizard_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWizard_Window.h; sourceTree = "<group>"; };
-		1AB106A21A91E0A000722279 /* ServiceWizard_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWizard_Window.m; sourceTree = "<group>"; };
 		1AB108431A91E0C400722279 /* DHAPIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHAPIBase.h; sourceTree = "<group>"; };
 		1AB108441A91E0C400722279 /* DHAPIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHAPIBase.m; sourceTree = "<group>"; };
 		1AB108451A91E0C400722279 /* DHAPIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHAPIHeader.h; sourceTree = "<group>"; };
@@ -1492,11 +1222,6 @@
 				1AB1085B1A91E36300722279 /* libsqlite3.dylib in Frameworks */,
 				1AB108591A91E35900722279 /* libz.dylib in Frameworks */,
 				1AB108571A91E34800722279 /* AddressBook.framework in Frameworks */,
-				1AB108031A91E0A100722279 /* libcrypto.a in Frameworks */,
-				1AB108021A91E0A000722279 /* libalixpay.a in Frameworks */,
-				1AB108271A91E0A100722279 /* libWeChatSDK.a in Frameworks */,
-				1AB1082F1A91E0A100722279 /* iflyMSC.framework in Frameworks */,
-				1AB108041A91E0A100722279 /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1680,7 +1405,6 @@
 			isa = PBXGroup;
 			children = (
 				1AB102BF1A91E09F00722279 /* framework */,
-				1AB105B51A91E0A000722279 /* services */,
 			);
 			path = beeframework;
 			sourceTree = "<group>";
@@ -2967,436 +2691,6 @@
 			path = minizip;
 			sourceTree = "<group>";
 		};
-		1AB105B51A91E0A000722279 /* services */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105B61A91E0A000722279 /* bee.services.alipay */,
-				1AB106281A91E0A000722279 /* bee.services.location */,
-				1AB1062F1A91E0A000722279 /* bee.services.push */,
-				1AB106381A91E0A000722279 /* bee.services.share */,
-				1AB1064D1A91E0A000722279 /* bee.services.share.sinaweibo */,
-				1AB1065A1A91E0A000722279 /* bee.services.share.tencentweibo */,
-				1AB106671A91E0A000722279 /* bee.services.share.weixin */,
-				1AB106751A91E0A000722279 /* bee.services.siri */,
-				1AB1068F1A91E0A000722279 /* bee.services.wizard */,
-			);
-			path = services;
-			sourceTree = "<group>";
-		};
-		1AB105B61A91E0A000722279 /* bee.services.alipay */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105B71A91E0A000722279 /* bee.services.alipay.h */,
-				1AB105B81A91E0A000722279 /* bee.services.alipay.m */,
-				1AB105B91A91E0A000722279 /* bee.services.alipay.md */,
-				1AB105BA1A91E0A000722279 /* source */,
-				1AB105C11A91E0A000722279 /* vendor */,
-			);
-			path = bee.services.alipay;
-			sourceTree = "<group>";
-		};
-		1AB105BA1A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105BB1A91E0A000722279 /* ServiceAlipay.h */,
-				1AB105BC1A91E0A000722279 /* ServiceAlipay.m */,
-				1AB105BD1A91E0A000722279 /* ServiceAlipay_Config.h */,
-				1AB105BE1A91E0A000722279 /* ServiceAlipay_Config.m */,
-				1AB105BF1A91E0A000722279 /* ServiceAlipay_Order.h */,
-				1AB105C01A91E0A000722279 /* ServiceAlipay_Order.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB105C11A91E0A000722279 /* vendor */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105C21A91E0A000722279 /* AlipaySDK */,
-			);
-			path = vendor;
-			sourceTree = "<group>";
-		};
-		1AB105C21A91E0A000722279 /* AlipaySDK */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105C31A91E0A000722279 /* AlixPay.h */,
-				1AB105C41A91E0A000722279 /* AlixPay.m */,
-				1AB105C51A91E0A000722279 /* AlixPayOrder.h */,
-				1AB105C61A91E0A000722279 /* AlixPayOrder.m */,
-				1AB105C71A91E0A000722279 /* AlixPayResult.h */,
-				1AB105C81A91E0A000722279 /* AlixPayResult.m */,
-				1AB105C91A91E0A000722279 /* decrypt */,
-				1AB105CE1A91E0A000722279 /* encrypt */,
-				1AB105D51A91E0A000722279 /* openssl */,
-			);
-			path = AlipaySDK;
-			sourceTree = "<group>";
-		};
-		1AB105C91A91E0A000722279 /* decrypt */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105CA1A91E0A000722279 /* DataVerifier.h */,
-				1AB105CB1A91E0A000722279 /* DataVerifier.m */,
-				1AB105CC1A91E0A000722279 /* RSADataVerifier.h */,
-				1AB105CD1A91E0A000722279 /* RSADataVerifier.m */,
-			);
-			path = decrypt;
-			sourceTree = "<group>";
-		};
-		1AB105CE1A91E0A000722279 /* encrypt */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105CF1A91E0A000722279 /* DataSigner.h */,
-				1AB105D01A91E0A000722279 /* DataSigner.m */,
-				1AB105D11A91E0A000722279 /* MD5DataSigner.h */,
-				1AB105D21A91E0A000722279 /* MD5DataSigner.m */,
-				1AB105D31A91E0A000722279 /* RSADataSigner.h */,
-				1AB105D41A91E0A000722279 /* RSADataSigner.m */,
-			);
-			path = encrypt;
-			sourceTree = "<group>";
-		};
-		1AB105D51A91E0A000722279 /* openssl */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105D61A91E0A000722279 /* inc */,
-				1AB106241A91E0A000722279 /* lib */,
-			);
-			path = openssl;
-			sourceTree = "<group>";
-		};
-		1AB105D61A91E0A000722279 /* inc */ = {
-			isa = PBXGroup;
-			children = (
-				1AB105D71A91E0A000722279 /* aes.h */,
-				1AB105D81A91E0A000722279 /* asn1.h */,
-				1AB105D91A91E0A000722279 /* asn1_mac.h */,
-				1AB105DA1A91E0A000722279 /* asn1t.h */,
-				1AB105DB1A91E0A000722279 /* bio.h */,
-				1AB105DC1A91E0A000722279 /* blowfish.h */,
-				1AB105DD1A91E0A000722279 /* bn.h */,
-				1AB105DE1A91E0A000722279 /* buffer.h */,
-				1AB105DF1A91E0A000722279 /* camellia.h */,
-				1AB105E01A91E0A000722279 /* cast.h */,
-				1AB105E11A91E0A000722279 /* cmac.h */,
-				1AB105E21A91E0A000722279 /* cms.h */,
-				1AB105E31A91E0A000722279 /* comp.h */,
-				1AB105E41A91E0A000722279 /* conf.h */,
-				1AB105E51A91E0A000722279 /* conf_api.h */,
-				1AB105E61A91E0A000722279 /* crypto.h */,
-				1AB105E71A91E0A000722279 /* des.h */,
-				1AB105E81A91E0A000722279 /* des_old.h */,
-				1AB105E91A91E0A000722279 /* dh.h */,
-				1AB105EA1A91E0A000722279 /* dsa.h */,
-				1AB105EB1A91E0A000722279 /* dso.h */,
-				1AB105EC1A91E0A000722279 /* dtls1.h */,
-				1AB105ED1A91E0A000722279 /* e_os2.h */,
-				1AB105EE1A91E0A000722279 /* ebcdic.h */,
-				1AB105EF1A91E0A000722279 /* ec.h */,
-				1AB105F01A91E0A000722279 /* ecdh.h */,
-				1AB105F11A91E0A000722279 /* ecdsa.h */,
-				1AB105F21A91E0A000722279 /* engine.h */,
-				1AB105F31A91E0A000722279 /* err.h */,
-				1AB105F41A91E0A000722279 /* evp.h */,
-				1AB105F51A91E0A000722279 /* hmac.h */,
-				1AB105F61A91E0A000722279 /* idea.h */,
-				1AB105F71A91E0A000722279 /* krb5_asn.h */,
-				1AB105F81A91E0A000722279 /* kssl.h */,
-				1AB105F91A91E0A000722279 /* lhash.h */,
-				1AB105FA1A91E0A000722279 /* md4.h */,
-				1AB105FB1A91E0A000722279 /* md5.h */,
-				1AB105FC1A91E0A000722279 /* mdc2.h */,
-				1AB105FD1A91E0A000722279 /* modes.h */,
-				1AB105FE1A91E0A000722279 /* obj_mac.h */,
-				1AB105FF1A91E0A000722279 /* objects.h */,
-				1AB106001A91E0A000722279 /* ocsp.h */,
-				1AB106011A91E0A000722279 /* openssl_wrapper.h */,
-				1AB106021A91E0A000722279 /* openssl_wrapper.m */,
-				1AB106031A91E0A000722279 /* opensslconf.h */,
-				1AB106041A91E0A000722279 /* opensslv.h */,
-				1AB106051A91E0A000722279 /* ossl_typ.h */,
-				1AB106061A91E0A000722279 /* pem.h */,
-				1AB106071A91E0A000722279 /* pem2.h */,
-				1AB106081A91E0A000722279 /* pkcs12.h */,
-				1AB106091A91E0A000722279 /* pkcs7.h */,
-				1AB1060A1A91E0A000722279 /* pqueue.h */,
-				1AB1060B1A91E0A000722279 /* rand.h */,
-				1AB1060C1A91E0A000722279 /* rc2.h */,
-				1AB1060D1A91E0A000722279 /* rc4.h */,
-				1AB1060E1A91E0A000722279 /* ripemd.h */,
-				1AB1060F1A91E0A000722279 /* rsa.h */,
-				1AB106101A91E0A000722279 /* safestack.h */,
-				1AB106111A91E0A000722279 /* seed.h */,
-				1AB106121A91E0A000722279 /* sha.h */,
-				1AB106131A91E0A000722279 /* srp.h */,
-				1AB106141A91E0A000722279 /* srtp.h */,
-				1AB106151A91E0A000722279 /* ssl.h */,
-				1AB106161A91E0A000722279 /* ssl2.h */,
-				1AB106171A91E0A000722279 /* ssl23.h */,
-				1AB106181A91E0A000722279 /* ssl3.h */,
-				1AB106191A91E0A000722279 /* stack.h */,
-				1AB1061A1A91E0A000722279 /* symhacks.h */,
-				1AB1061B1A91E0A000722279 /* tls1.h */,
-				1AB1061C1A91E0A000722279 /* ts.h */,
-				1AB1061D1A91E0A000722279 /* txt_db.h */,
-				1AB1061E1A91E0A000722279 /* ui.h */,
-				1AB1061F1A91E0A000722279 /* ui_compat.h */,
-				1AB106201A91E0A000722279 /* whrlpool.h */,
-				1AB106211A91E0A000722279 /* x509.h */,
-				1AB106221A91E0A000722279 /* x509_vfy.h */,
-				1AB106231A91E0A000722279 /* x509v3.h */,
-			);
-			path = inc;
-			sourceTree = "<group>";
-		};
-		1AB106241A91E0A000722279 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106251A91E0A000722279 /* libalixpay.a */,
-				1AB106261A91E0A000722279 /* libcrypto.a */,
-				1AB106271A91E0A000722279 /* libssl.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		1AB106281A91E0A000722279 /* bee.services.location */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106291A91E0A000722279 /* bee.services.location.h */,
-				1AB1062A1A91E0A000722279 /* bee.services.location.m */,
-				1AB1062B1A91E0A000722279 /* bee.services.location.md */,
-				1AB1062C1A91E0A000722279 /* source */,
-			);
-			path = bee.services.location;
-			sourceTree = "<group>";
-		};
-		1AB1062C1A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1062D1A91E0A000722279 /* ServiceLocation.h */,
-				1AB1062E1A91E0A000722279 /* ServiceLocation.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB1062F1A91E0A000722279 /* bee.services.push */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106301A91E0A000722279 /* bee.services.push.h */,
-				1AB106311A91E0A000722279 /* bee.services.push.m */,
-				1AB106321A91E0A000722279 /* bee.services.push.md */,
-				1AB106331A91E0A000722279 /* source */,
-			);
-			path = bee.services.push;
-			sourceTree = "<group>";
-		};
-		1AB106331A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106341A91E0A000722279 /* ServicePush.h */,
-				1AB106351A91E0A000722279 /* ServicePush.m */,
-				1AB106361A91E0A000722279 /* ServicePush_Notification.h */,
-				1AB106371A91E0A000722279 /* ServicePush_Notification.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB106381A91E0A000722279 /* bee.services.share */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106391A91E0A000722279 /* bee.services.share.h */,
-				1AB1063A1A91E0A000722279 /* bee.services.share.m */,
-				1AB1063B1A91E0A000722279 /* source */,
-			);
-			path = bee.services.share;
-			sourceTree = "<group>";
-		};
-		1AB1063B1A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1063C1A91E0A000722279 /* ServiceShare.bundle */,
-				1AB1063D1A91E0A000722279 /* ServiceShare.h */,
-				1AB1063E1A91E0A000722279 /* ServiceShare.m */,
-				1AB1063F1A91E0A000722279 /* ServiceShare_ActivityBoard.h */,
-				1AB106401A91E0A000722279 /* ServiceShare_ActivityBoard.m */,
-				1AB106411A91E0A000722279 /* ServiceShare_ActivityBoard.xml */,
-				1AB106421A91E0A000722279 /* ServiceShare_ActivityWindow.h */,
-				1AB106431A91E0A000722279 /* ServiceShare_ActivityWindow.m */,
-				1AB106441A91E0A000722279 /* ServiceShare_AuthorizeBoard.h */,
-				1AB106451A91E0A000722279 /* ServiceShare_AuthorizeBoard.m */,
-				1AB106461A91E0A000722279 /* ServiceShare_AuthorizeBoard.xml */,
-				1AB106471A91E0A000722279 /* ServiceShare_Post.h */,
-				1AB106481A91E0A000722279 /* ServiceShare_Post.m */,
-				1AB106491A91E0A000722279 /* ServiceShare_Utility.h */,
-				1AB1064A1A91E0A000722279 /* ServiceShare_Utility.m */,
-				1AB1064B1A91E0A000722279 /* ServiceShare_Window.h */,
-				1AB1064C1A91E0A000722279 /* ServiceShare_Window.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB1064D1A91E0A000722279 /* bee.services.share.sinaweibo */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1064E1A91E0A000722279 /* bee.services.share.sinaweibo.h */,
-				1AB1064F1A91E0A000722279 /* bee.services.share.sinaweibo.m */,
-				1AB106501A91E0A000722279 /* bee.services.share.sinaweibo.md */,
-				1AB106511A91E0A000722279 /* source */,
-			);
-			path = bee.services.share.sinaweibo;
-			sourceTree = "<group>";
-		};
-		1AB106511A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106521A91E0A000722279 /* ServiceShare_SinaWeibo.h */,
-				1AB106531A91E0A000722279 /* ServiceShare_SinaWeibo.m */,
-				1AB106541A91E0A000722279 /* ServiceShare_SinaWeibo_API.h */,
-				1AB106551A91E0A000722279 /* ServiceShare_SinaWeibo_API.m */,
-				1AB106561A91E0A000722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.h */,
-				1AB106571A91E0A000722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.m */,
-				1AB106581A91E0A000722279 /* ServiceShare_SinaWeibo_Config.h */,
-				1AB106591A91E0A000722279 /* ServiceShare_SinaWeibo_Config.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB1065A1A91E0A000722279 /* bee.services.share.tencentweibo */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1065B1A91E0A000722279 /* bee.services.share.tencentweibo.h */,
-				1AB1065C1A91E0A000722279 /* bee.services.share.tencentweibo.m */,
-				1AB1065D1A91E0A000722279 /* bee.services.share.tencentweibo.md */,
-				1AB1065E1A91E0A000722279 /* source */,
-			);
-			path = bee.services.share.tencentweibo;
-			sourceTree = "<group>";
-		};
-		1AB1065E1A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1065F1A91E0A000722279 /* ServiceShare_TencentWeibo.h */,
-				1AB106601A91E0A000722279 /* ServiceShare_TencentWeibo.m */,
-				1AB106611A91E0A000722279 /* ServiceShare_TencentWeibo_API.h */,
-				1AB106621A91E0A000722279 /* ServiceShare_TencentWeibo_API.m */,
-				1AB106631A91E0A000722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.h */,
-				1AB106641A91E0A000722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.m */,
-				1AB106651A91E0A000722279 /* ServiceShare_TencentWeibo_Config.h */,
-				1AB106661A91E0A000722279 /* ServiceShare_TencentWeibo_Config.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB106671A91E0A000722279 /* bee.services.share.weixin */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106681A91E0A000722279 /* bee.services.share.weixin.h */,
-				1AB106691A91E0A000722279 /* bee.services.share.weixin.m */,
-				1AB1066A1A91E0A000722279 /* bee.services.share.weixin.md */,
-				1AB1066B1A91E0A000722279 /* source */,
-				1AB106701A91E0A000722279 /* vendor */,
-			);
-			path = bee.services.share.weixin;
-			sourceTree = "<group>";
-		};
-		1AB1066B1A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1066C1A91E0A000722279 /* ServiceShare_Weixin.h */,
-				1AB1066D1A91E0A000722279 /* ServiceShare_Weixin.m */,
-				1AB1066E1A91E0A000722279 /* ServiceShare_Weixin_Config.h */,
-				1AB1066F1A91E0A000722279 /* ServiceShare_Weixin_Config.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB106701A91E0A000722279 /* vendor */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106711A91E0A000722279 /* WeixinSDK */,
-			);
-			path = vendor;
-			sourceTree = "<group>";
-		};
-		1AB106711A91E0A000722279 /* WeixinSDK */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106721A91E0A000722279 /* libWeChatSDK.a */,
-				1AB106731A91E0A000722279 /* WXApi.h */,
-				1AB106741A91E0A000722279 /* WXApiObject.h */,
-			);
-			path = WeixinSDK;
-			sourceTree = "<group>";
-		};
-		1AB106751A91E0A000722279 /* bee.services.siri */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106761A91E0A000722279 /* bee.services.siri.h */,
-				1AB106771A91E0A000722279 /* bee.services.siri.m */,
-				1AB106781A91E0A000722279 /* bee.services.siri.md */,
-				1AB106791A91E0A000722279 /* source */,
-				1AB106831A91E0A000722279 /* vendor */,
-			);
-			path = bee.services.siri;
-			sourceTree = "<group>";
-		};
-		1AB106791A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB1067A1A91E0A000722279 /* ServiceSiri.h */,
-				1AB1067B1A91E0A000722279 /* ServiceSiri.m */,
-				1AB1067C1A91E0A000722279 /* ServiceSiri_Board.h */,
-				1AB1067D1A91E0A000722279 /* ServiceSiri_Board.m */,
-				1AB1067E1A91E0A000722279 /* ServiceSiri_Board.xml */,
-				1AB1067F1A91E0A000722279 /* ServiceSiri_Config.h */,
-				1AB106801A91E0A000722279 /* ServiceSiri_Config.m */,
-				1AB106811A91E0A000722279 /* ServiceSiri_Window.h */,
-				1AB106821A91E0A000722279 /* ServiceSiri_Window.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		1AB106831A91E0A000722279 /* vendor */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106841A91E0A000722279 /* iflyMSC.framework */,
-			);
-			path = vendor;
-			sourceTree = "<group>";
-		};
-		1AB1068F1A91E0A000722279 /* bee.services.wizard */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106901A91E0A000722279 /* bee.services.wizard.h */,
-				1AB106911A91E0A000722279 /* bee.services.wizard.m */,
-				1AB106921A91E0A000722279 /* bee.services.wizard.md */,
-				1AB106931A91E0A000722279 /* source */,
-			);
-			path = bee.services.wizard;
-			sourceTree = "<group>";
-		};
-		1AB106931A91E0A000722279 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				1AB106941A91E0A000722279 /* ServiceWizard.h */,
-				1AB106951A91E0A000722279 /* ServiceWizard.m */,
-				1AB106961A91E0A000722279 /* ServiceWizard_Board.h */,
-				1AB106971A91E0A000722279 /* ServiceWizard_Board.m */,
-				1AB106981A91E0A000722279 /* ServiceWizard_Board.xml */,
-				1AB106991A91E0A000722279 /* ServiceWizard_Config.h */,
-				1AB1069A1A91E0A000722279 /* ServiceWizard_Config.m */,
-				1AB1069B1A91E0A000722279 /* ServiceWizard_CustomCell.h */,
-				1AB1069C1A91E0A000722279 /* ServiceWizard_CustomCell.m */,
-				1AB1069D1A91E0A000722279 /* ServiceWizard_CustomCell.xml */,
-				1AB1069E1A91E0A000722279 /* ServiceWizard_PhotoCell.h */,
-				1AB1069F1A91E0A000722279 /* ServiceWizard_PhotoCell.m */,
-				1AB106A01A91E0A000722279 /* ServiceWizard_PhotoCell.xml */,
-				1AB106A11A91E0A000722279 /* ServiceWizard_Window.h */,
-				1AB106A21A91E0A000722279 /* ServiceWizard_Window.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
 		1AB1083E1A91E0C400722279 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -3538,16 +2832,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB1082C1A91E0A100722279 /* ServiceSiri_Board.xml in Resources */,
 				1AB102A31A91DFB100722279 /* Main.storyboard in Resources */,
-				1AB108101A91E0A100722279 /* ServiceShare_ActivityBoard.xml in Resources */,
 				1AB102A81A91DFB100722279 /* LaunchScreen.xib in Resources */,
-				1AB1083A1A91E0A100722279 /* ServiceWizard_CustomCell.xml in Resources */,
 				1AB102A51A91DFB100722279 /* Images.xcassets in Resources */,
-				1AB108131A91E0A100722279 /* ServiceShare_AuthorizeBoard.xml in Resources */,
-				1AB1080D1A91E0A100722279 /* ServiceShare.bundle in Resources */,
-				1AB108371A91E0A100722279 /* ServiceWizard_Board.xml in Resources */,
-				1AB1083C1A91E0A100722279 /* ServiceWizard_PhotoCell.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3568,13 +2855,11 @@
 				1AB107221A91E0A000722279 /* UIView+Tag.m in Sources */,
 				1AB107B81A91E0A000722279 /* Bee_HTTPConfig.m in Sources */,
 				1AB107411A91E0A000722279 /* UILabel+BeeUILayout.m in Sources */,
-				1AB108281A91E0A100722279 /* bee.services.siri.m in Sources */,
 				1AB107DA1A91E0A000722279 /* FMDatabase.m in Sources */,
 				1AB1071D1A91E0A000722279 /* UIView+Metrics.m in Sources */,
 				1AB107C51A91E0A000722279 /* Bee_HTTPUtility2.m in Sources */,
 				1AB107C41A91E0A000722279 /* Bee_HTTPServerRouter2.m in Sources */,
 				1AB107E21A91E0A000722279 /* CTidy.m in Sources */,
-				1AB1081D1A91E0A100722279 /* bee.services.share.tencentweibo.m in Sources */,
 				1AB106D11A91E0A000722279 /* Bee_UIStyle.m in Sources */,
 				1AB107641A91E0A000722279 /* BeeUISignal+SourceModel.m in Sources */,
 				1AB107571A91E0A000722279 /* BeeUIQuery+Miscellaneous.m in Sources */,
@@ -3593,16 +2878,13 @@
 				1AB107981A91E0A000722279 /* Bee_Runtime.mm in Sources */,
 				1AB107331A91E0A000722279 /* Bee_UISignal.m in Sources */,
 				1AB107661A91E0A000722279 /* Bee_OnceViewModel.mm in Sources */,
-				1AB108351A91E0A100722279 /* ServiceWizard.m in Sources */,
 				1AB106C91A91E0A000722279 /* UIView+UINavigationController.m in Sources */,
 				1AB107EB1A91E0A000722279 /* CXMLNode.m in Sources */,
 				1AB106B41A91E0A000722279 /* Bee_UIApplication.m in Sources */,
 				1AB107B51A91E0A000722279 /* Bee_HTTPPackage.mm in Sources */,
 				1AB107431A91E0A000722279 /* UIScrollView+BeeUILayout.m in Sources */,
 				1AB107151A91E0A000722279 /* Bee_UIToolbar.m in Sources */,
-				1AB1080C1A91E0A100722279 /* bee.services.share.m in Sources */,
 				1AB106BB1A91E0A000722279 /* UIImage+BeeExtension.m in Sources */,
-				1AB107FB1A91E0A000722279 /* AlixPayResult.m in Sources */,
 				1AB106C71A91E0A000722279 /* BeeUIStack+BackwardCompatible.m in Sources */,
 				1AB107D31A91E0A000722279 /* ASIDataCompressor.m in Sources */,
 				1AB106EE1A91E0A000722279 /* UIView+Animation.m in Sources */,
@@ -3610,7 +2892,6 @@
 				1AB1076C1A91E0A000722279 /* Bee_UITemplateMediaQuery.m in Sources */,
 				1AB106F01A91E0A000722279 /* UIButton+UIDataBinding.m in Sources */,
 				1AB1077D1A91E0A000722279 /* Bee_System.mm in Sources */,
-				1AB108231A91E0A100722279 /* bee.services.share.weixin.m in Sources */,
 				1AB107361A91E0A000722279 /* UIView+BeeUISignal.m in Sources */,
 				1AB106B71A91E0A000722279 /* Bee_UICollection.m in Sources */,
 				1AB1075B1A91E0A000722279 /* BeeUIQuery+Value.m in Sources */,
@@ -3621,7 +2902,6 @@
 				1AB106AD1A91E0A000722279 /* BeeMessage+BackwardCompatible.mm in Sources */,
 				1AB106A61A91E0A000722279 /* Bee_CLI.mm in Sources */,
 				1AB107401A91E0A000722279 /* UIImageView+BeeUILayout.m in Sources */,
-				1AB108001A91E0A000722279 /* RSADataSigner.m in Sources */,
 				1AB107EC1A91E0A000722279 /* CXMLNode_CreationExtensions.m in Sources */,
 				1AB107291A91E0A000722279 /* Bee_UIFootLoader.m in Sources */,
 				1AB106A81A91E0A000722279 /* Bee_Controller.mm in Sources */,
@@ -3629,11 +2909,8 @@
 				1AB106DF1A91E0A000722279 /* UIView+BeeUIStyle.m in Sources */,
 				1AB107631A91E0A000722279 /* Bee_ViewModel.mm in Sources */,
 				1AB107371A91E0A000722279 /* UIViewController+BeeUISignal.m in Sources */,
-				1AB108391A91E0A100722279 /* ServiceWizard_CustomCell.m in Sources */,
 				1AB107301A91E0A000722279 /* BeeUIZoomImageView+BeeUIStyle.m in Sources */,
 				1A6448761A9D9F250068CE66 /* DCCustomParser.m in Sources */,
-				1AB1082D1A91E0A100722279 /* ServiceSiri_Config.m in Sources */,
-				1AB108241A91E0A100722279 /* bee.services.share.weixin.md in Sources */,
 				1AB107951A91E0A000722279 /* Bee_Foundation.mm in Sources */,
 				1AB1078D1A91E0A000722279 /* Bee_MYSQL.m in Sources */,
 				1AB106AE1A91E0A000722279 /* BeeMessage+BeeActiveRecord.mm in Sources */,
@@ -3653,34 +2930,26 @@
 				1AB106FD1A91E0A000722279 /* Bee_UIActivityIndicatorView.m in Sources */,
 				1AB107511A91E0A000722279 /* BeeUIQuery+AJAX.m in Sources */,
 				1AB1074D1A91E0A000722279 /* UITextView+LayoutParser.m in Sources */,
-				1AB108221A91E0A100722279 /* ServiceShare_TencentWeibo_Config.m in Sources */,
 				1AB107161A91E0A000722279 /* Bee_UIVideoEditorController.m in Sources */,
 				1AB107701A91E0A000722279 /* UIViewController+BeeUITemplate.m in Sources */,
 				1AB107A91A91E0A000722279 /* NSObject+BeeProperty.mm in Sources */,
 				1AB1070D1A91E0A000722279 /* Bee_UISearchBar.m in Sources */,
-				1AB107FA1A91E0A000722279 /* AlixPayOrder.m in Sources */,
 				1AB107A01A91E0A000722279 /* NSBundle+BeeExtension.m in Sources */,
 				1AB107B71A91E0A000722279 /* Bee_HTTPClientConfig.m in Sources */,
 				1AB107821A91E0A000722279 /* Bee_FileCache.mm in Sources */,
 				1AB107341A91E0A000722279 /* Bee_UISignalBus.m in Sources */,
 				1AB107A51A91E0A000722279 /* NSObject+BeeExtension.mm in Sources */,
-				1AB107FE1A91E0A000722279 /* DataSigner.m in Sources */,
 				1AB107A81A91E0A000722279 /* NSObject+BeeNotification.mm in Sources */,
 				1AB107721A91E0A000722279 /* Bee_UITemplateParserXML.m in Sources */,
 				1AB106C31A91E0A000722279 /* BeeUIBoard+ModalStack.m in Sources */,
 				1AB107031A91E0A000722279 /* Bee_UIImageView.m in Sources */,
-				1AB107F51A91E0A000722279 /* bee.services.alipay.md in Sources */,
 				1AB107671A91E0A000722279 /* Bee_PagingViewModel.mm in Sources */,
-				1AB108291A91E0A100722279 /* bee.services.siri.md in Sources */,
 				1AB1072C1A91E0A000722279 /* Bee_UITipsView.m in Sources */,
 				1AB107EF1A91E0A000722279 /* ioapi.c in Sources */,
-				1AB1082A1A91E0A100722279 /* ServiceSiri.m in Sources */,
 				1AB107B61A91E0A000722279 /* Bee_HTTPClient.m in Sources */,
 				1AB1073E1A91E0A000722279 /* BeeUILayout+CSSElement.m in Sources */,
-				1AB1081B1A91E0A100722279 /* ServiceShare_SinaWeibo_AuthorizeBoard.m in Sources */,
 				1AB107B01A91E0A000722279 /* NSTimer+BeeExtension.mm in Sources */,
 				1AB1075F1A91E0A000722279 /* Bee_UITransitionFlip.m in Sources */,
-				1AB1080E1A91E0A100722279 /* ServiceShare.m in Sources */,
 				1AB107141A91E0A000722279 /* Bee_UITextView.m in Sources */,
 				1AB106F91A91E0A000722279 /* UIView+BeeExtension.m in Sources */,
 				1AB107831A91E0A000722279 /* Bee_Keychain.mm in Sources */,
@@ -3696,7 +2965,6 @@
 				1A6448441A9D9C960068CE66 /* DB.m in Sources */,
 				1AB106BC1A91E0A000722279 /* Bee_UIConfig.m in Sources */,
 				1AB106C81A91E0A000722279 /* BeeUIStack+BeeUIRouter.m in Sources */,
-				1AB1080A1A91E0A100722279 /* ServicePush.m in Sources */,
 				1AB106BA1A91E0A000722279 /* UIFont+BeeExtension.m in Sources */,
 				1A64483B1A9D99960068CE66 /* LKDBUtils.m in Sources */,
 				1AB1073A1A91E0A000722279 /* Bee_UILayoutBuilder_v1.m in Sources */,
@@ -3705,7 +2973,6 @@
 				1AB1071A1A91E0A000722279 /* UIView+HoldGesture.m in Sources */,
 				1AB107A61A91E0A000722279 /* NSObject+BeeJSON.mm in Sources */,
 				1AB108541A91E0C400722279 /* NSObject+DHAPIMessage.m in Sources */,
-				1AB1080B1A91E0A100722279 /* ServicePush_Notification.m in Sources */,
 				1AB6F9E21A92F32D0081FDD4 /* DHBase.m in Sources */,
 				1AB106B61A91E0A000722279 /* Bee_ViewPackage.mm in Sources */,
 				1AB1079C1A91E0A000722279 /* Bee_Thread.mm in Sources */,
@@ -3716,7 +2983,6 @@
 				1AB107C71A91E0A000722279 /* Bee_HTTPWorklet2.m in Sources */,
 				1AB107C01A91E0A000722279 /* Bee_HTTPResponse2.m in Sources */,
 				1AB107891A91E0A000722279 /* Bee_ActiveObject.m in Sources */,
-				1AB1083B1A91E0A100722279 /* ServiceWizard_PhotoCell.m in Sources */,
 				1AB107D01A91E0A000722279 /* NSObject+Resource.mm in Sources */,
 				1AB106D71A91E0A000722279 /* UIButton+BeeUIStyle.m in Sources */,
 				1AB107921A91E0A000722279 /* NSObject+BeeActiveRecord.m in Sources */,
@@ -3725,7 +2991,6 @@
 				1AB107451A91E0A000722279 /* UITextView+BeeUILayout.m in Sources */,
 				1AB107931A91E0A000722279 /* NSObject+BeeDatabase.m in Sources */,
 				1AB1077B1A91E0A000722279 /* UITextView+XMLParser.m in Sources */,
-				1AB108061A91E0A100722279 /* bee.services.location.md in Sources */,
 				1AB107011A91E0A000722279 /* Bee_UIDatePicker.m in Sources */,
 				1AB106B01A91E0A000722279 /* BeeMessage+BeeNetwork.mm in Sources */,
 				1AB1075C1A91E0A000722279 /* Bee_UITransition.m in Sources */,
@@ -3737,18 +3002,15 @@
 				1AB1076B1A91E0A000722279 /* Bee_UITemplateManager.m in Sources */,
 				1AB107AF1A91E0A000722279 /* NSString+BeeExtension.mm in Sources */,
 				1AB107DF1A91E0A000722279 /* JSONKit.m in Sources */,
-				1AB107FF1A91E0A000722279 /* MD5DataSigner.m in Sources */,
 				1AB107171A91E0A000722279 /* Bee_UIView.m in Sources */,
 				1AB107281A91E0A000722279 /* Bee_UICell.m in Sources */,
 				1AB106DB1A91E0A000722279 /* UIPageControl+BeeUIStyle.m in Sources */,
 				1AB106A71A91E0A000722279 /* Bee_MVC.mm in Sources */,
 				1AB106AA1A91E0A000722279 /* Bee_MessageController.mm in Sources */,
 				1AB106E81A91E0A000722279 /* Bee_UIAnimation.m in Sources */,
-				1AB1080F1A91E0A100722279 /* ServiceShare_ActivityBoard.m in Sources */,
 				1AB107351A91E0A000722279 /* BeeUISignal+SourceView.m in Sources */,
 				1AB106DC1A91E0A000722279 /* UIScrollView+BeeUIStyle.m in Sources */,
 				1AB1079A1A91E0A000722279 /* Bee_Singleton.mm in Sources */,
-				1AB1082B1A91E0A100722279 /* ServiceSiri_Board.m in Sources */,
 				1AB1072A1A91E0A000722279 /* Bee_UIMatrixView.m in Sources */,
 				1AB106E41A91E0A000722279 /* CSSStyleSelector.m in Sources */,
 				1AB1029D1A91DFB100722279 /* AppDelegate.m in Sources */,
@@ -3760,7 +3022,6 @@
 				1AB1078F1A91E0A000722279 /* BeeDatabase+BeeActiveRecord.m in Sources */,
 				1AB107611A91E0A000722279 /* UIView+Transition.m in Sources */,
 				1AB107E31A91E0A000722279 /* CXHTMLDocument.m in Sources */,
-				1AB108381A91E0A100722279 /* ServiceWizard_Config.m in Sources */,
 				1AB106D01A91E0A000722279 /* UIViewController+UINavigationController.m in Sources */,
 				1AB107E41A91E0A000722279 /* CXMLDocument.m in Sources */,
 				1AB107E71A91E0A000722279 /* CXMLElement.m in Sources */,
@@ -3769,7 +3030,6 @@
 				1AB107B21A91E0A000722279 /* Bee_LanguageSetting.m in Sources */,
 				1A64487B1A9D9F250068CE66 /* DCNSArrayConverter.m in Sources */,
 				1AB107121A91E0A000722279 /* Bee_UITableView.m in Sources */,
-				1AB1083D1A91E0A100722279 /* ServiceWizard_Window.m in Sources */,
 				1AB106F41A91E0A000722279 /* UITextField+UIDataBinding.m in Sources */,
 				1AB108521A91E0C400722279 /* DHAPIMessage.m in Sources */,
 				1AB107801A91E0A000722279 /* Bee_Cache.mm in Sources */,
@@ -3779,21 +3039,15 @@
 				1AB1073C1A91E0A000722279 /* Bee_UILayoutConfig.m in Sources */,
 				1AB107001A91E0A000722279 /* Bee_UICheck.m in Sources */,
 				1AB107531A91E0A000722279 /* BeeUIQuery+Dimensions.m in Sources */,
-				1AB108011A91E0A000722279 /* openssl_wrapper.m in Sources */,
 				1AB107BE1A91E0A000722279 /* Bee_HTTPProtocol2.m in Sources */,
 				1AB106B21A91E0A000722279 /* NSObject+BeeMessage.mm in Sources */,
 				1AB107AA1A91E0A000722279 /* NSObject+BeeTicker.mm in Sources */,
 				1AB107D51A91E0A000722279 /* ASIDownloadCache.m in Sources */,
-				1AB108051A91E0A100722279 /* bee.services.location.m in Sources */,
-				1AB108251A91E0A100722279 /* ServiceShare_Weixin.m in Sources */,
-				1AB108121A91E0A100722279 /* ServiceShare_AuthorizeBoard.m in Sources */,
-				1AB1081C1A91E0A100722279 /* ServiceShare_SinaWeibo_Config.m in Sources */,
 				1AB106F81A91E0A000722279 /* UINavigationBar+BeeExtension.m in Sources */,
 				1AB106AB1A91E0A000722279 /* Bee_MessageQueue.mm in Sources */,
 				1AB107EA1A91E0A000722279 /* CXMLNamespaceNode.m in Sources */,
 				1AB107901A91E0A000722279 /* NSArray+BeeActiveRecord.m in Sources */,
 				1AB107771A91E0A000722279 /* UIImageView+XMLParser.m in Sources */,
-				1AB108151A91E0A100722279 /* ServiceShare_Utility.m in Sources */,
 				1AB1074C1A91E0A000722279 /* UITextField+LayoutParser.m in Sources */,
 				1AB106CE1A91E0A000722279 /* UIViewController+Traversing.m in Sources */,
 				1AB1077A1A91E0A000722279 /* UITextField+XMLParser.m in Sources */,
@@ -3805,15 +3059,12 @@
 				1AB107381A91E0A000722279 /* Bee_UILayout.m in Sources */,
 				1AB106EF1A91E0A000722279 /* Bee_UIDataBinding.m in Sources */,
 				1AB107961A91E0A000722279 /* Bee_Log.mm in Sources */,
-				1AB108071A91E0A100722279 /* ServiceLocation.m in Sources */,
 				1AB106F71A91E0A000722279 /* NSObject+UIPropertyMapping.m in Sources */,
 				1AB106CB1A91E0A000722279 /* UIViewController+LifeCycle.m in Sources */,
 				1AB106CC1A91E0A000722279 /* UIViewController+Metrics.m in Sources */,
-				1AB108141A91E0A100722279 /* ServiceShare_Post.m in Sources */,
 				1A64487F1A9D9F250068CE66 /* DCObjectMapping.m in Sources */,
 				1AB106DD1A91E0A000722279 /* UITextField+BeeUIStyle.m in Sources */,
 				1AB107C61A91E0A000722279 /* Bee_HTTPWorkflow2.m in Sources */,
-				1AB108331A91E0A100722279 /* bee.services.wizard.m in Sources */,
 				1A6448831A9D9F250068CE66 /* DCReferenceKeyParser.m in Sources */,
 				1AB107CC1A91E0A000722279 /* Bee_MIME2.m in Sources */,
 				1AB106BE1A91E0A000722279 /* Bee_UIRouter.m in Sources */,
@@ -3835,7 +3086,6 @@
 				1AB1071C1A91E0A000722279 /* UIView+Manipulation.m in Sources */,
 				1AB107D11A91E0A000722279 /* Bee_Service.m in Sources */,
 				1AB107521A91E0A000722279 /* BeeUIQuery+CSS.m in Sources */,
-				1AB107FD1A91E0A000722279 /* RSADataVerifier.m in Sources */,
 				1A6448791A9D9F250068CE66 /* DCGenericConverter.m in Sources */,
 				1AB106F21A91E0A000722279 /* UILabel+UIDataBinding.m in Sources */,
 				1A64487E1A9D9F250068CE66 /* DCNSURLConverter.m in Sources */,
@@ -3844,19 +3094,15 @@
 				1AB107D61A91E0A000722279 /* ASIFormDataRequest.m in Sources */,
 				1AB107941A91E0A000722279 /* Bee_Assertion.mm in Sources */,
 				1AB106A31A91E0A000722279 /* Bee.mm in Sources */,
-				1AB108161A91E0A100722279 /* ServiceShare_Window.m in Sources */,
-				1AB108341A91E0A100722279 /* bee.services.wizard.md in Sources */,
 				1AB1079D1A91E0A000722279 /* Bee_Ticker.mm in Sources */,
 				1AB106C61A91E0A000722279 /* BeeUIBoard+Traversing.m in Sources */,
 				1AB106C21A91E0A000722279 /* BeeUIBoard+ModalBoard.m in Sources */,
-				1AB107F61A91E0A000722279 /* ServiceAlipay.m in Sources */,
 				1AB106E31A91E0A000722279 /* CSSSelector.m in Sources */,
 				1AB106CF1A91E0A000722279 /* UIViewController+UINavigationBar.m in Sources */,
 				1AB107211A91E0A000722279 /* UIView+SwipeGesture.m in Sources */,
 				1AB107E01A91E0A000722279 /* OpenUDID.m in Sources */,
 				1AB1072B1A91E0A000722279 /* Bee_UIPullLoader.m in Sources */,
 				1AB107711A91E0A000722279 /* Bee_UITemplateParserAndroid.m in Sources */,
-				1AB108081A91E0A100722279 /* bee.services.push.m in Sources */,
 				1AB107841A91E0A000722279 /* Bee_MemoryCache.mm in Sources */,
 				1AB106E71A91E0A000722279 /* CSSTokenizer.m in Sources */,
 				1AB107781A91E0A000722279 /* UILabel+XMLParser.m in Sources */,
@@ -3864,7 +3110,6 @@
 				1A8AF9FC1A9D7A1400D00189 /* ViewController.m in Sources */,
 				1AB1072E1A91E0A000722279 /* Bee_UIZoomView.m in Sources */,
 				1AB107CA1A91E0A000722279 /* ProcessingResponse.m in Sources */,
-				1AB107F71A91E0A000722279 /* ServiceAlipay_Config.m in Sources */,
 				1AB107051A91E0A000722279 /* Bee_UILabel.m in Sources */,
 				1A6448821A9D9F250068CE66 /* DCPropertyFinder.m in Sources */,
 				1AB107101A91E0A000722279 /* Bee_UISwitch.m in Sources */,
@@ -3878,14 +3123,11 @@
 				1AB107071A91E0A000722279 /* Bee_UINavigationBar.m in Sources */,
 				1AB107791A91E0A000722279 /* UIScrollView+XMLParser.m in Sources */,
 				1AB106C41A91E0A000722279 /* BeeUIBoard+ModalView.m in Sources */,
-				1AB108091A91E0A100722279 /* bee.services.push.md in Sources */,
 				1AB107471A91E0A000722279 /* UIViewController+BeeUILayout.m in Sources */,
 				1A64487C1A9D9F250068CE66 /* DCNSDateConverter.m in Sources */,
-				1AB107F81A91E0A000722279 /* ServiceAlipay_Order.m in Sources */,
 				1A6448751A9D9F250068CE66 /* DCCustomInitialize.m in Sources */,
 				1AB107091A91E0A000722279 /* Bee_UIPageViewController.m in Sources */,
 				1AB106CD1A91E0A000722279 /* UIViewController+Title.m in Sources */,
-				1AB108111A91E0A100722279 /* ServiceShare_ActivityWindow.m in Sources */,
 				1AB107A11A91E0A000722279 /* NSData+BeeExtension.mm in Sources */,
 				1AB106F51A91E0A000722279 /* UITextView+UIDataBinding.m in Sources */,
 				1AB107A41A91E0A000722279 /* NSNumber+BeeExtension.mm in Sources */,
@@ -3904,13 +3146,10 @@
 				1AB107F11A91E0A000722279 /* unzip.c in Sources */,
 				1AB107B91A91E0A000722279 /* Bee_HTTPRequest.m in Sources */,
 				1AB107DE1A91E0A000722279 /* FMResultSet.m in Sources */,
-				1AB108361A91E0A100722279 /* ServiceWizard_Board.m in Sources */,
 				1AB107591A91E0A000722279 /* BeeUIQuery+Transform.m in Sources */,
 				1AB107481A91E0A000722279 /* UIButton+LayoutParser.m in Sources */,
 				1AB1078E1A91E0A000722279 /* Bee_SQLITE.m in Sources */,
 				1AB107621A91E0A000722279 /* UIViewController+Transition.m in Sources */,
-				1AB108201A91E0A100722279 /* ServiceShare_TencentWeibo_API.m in Sources */,
-				1AB1082E1A91E0A100722279 /* ServiceSiri_Window.m in Sources */,
 				1AB107441A91E0A000722279 /* UITextField+BeeUILayout.m in Sources */,
 				1AB1075A1A91E0A000722279 /* BeeUIQuery+Traversing.m in Sources */,
 				1AB107241A91E0A000722279 /* UIView+Traversing.m in Sources */,
@@ -3919,12 +3158,10 @@
 				1AB107EE1A91E0A000722279 /* CXMLNode_XPathExtensions.m in Sources */,
 				1AB1073B1A91E0A000722279 /* Bee_UILayoutBuilder_v2.m in Sources */,
 				1A6448771A9D9F250068CE66 /* DCDictionaryRearranger.m in Sources */,
-				1AB108211A91E0A100722279 /* ServiceShare_TencentWeibo_AuthorizeBoard.m in Sources */,
 				1AB106EA1A91E0A000722279 /* Bee_UIAnimationBounce.m in Sources */,
 				1AB1077F1A91E0A000722279 /* Bee_SystemPackage.mm in Sources */,
 				1AB106D51A91E0A000722279 /* BeeUIStyle+Property.m in Sources */,
 				1AB1029A1A91DFB100722279 /* main.m in Sources */,
-				1AB107F41A91E0A000722279 /* bee.services.alipay.m in Sources */,
 				1AB106FA1A91E0A000722279 /* Bee_UIAccelerometer.m in Sources */,
 				1AB106AC1A91E0A000722279 /* Bee_Routine.mm in Sources */,
 				1AB107871A91E0A000722279 /* NSObject+BeeUserDefaults.mm in Sources */,
@@ -3934,10 +3171,8 @@
 				1AB1071E1A91E0A000722279 /* UIView+PanGesture.m in Sources */,
 				1AB107AE1A91E0A000722279 /* NSString+BeeEmoji.m in Sources */,
 				1AB107491A91E0A000722279 /* UIImageView+LayoutParser.m in Sources */,
-				1AB108181A91E0A100722279 /* bee.services.share.sinaweibo.md in Sources */,
 				1AB106FB1A91E0A000722279 /* Bee_UIActionSheet.m in Sources */,
 				1AB107CD1A91E0A000722279 /* Bee_Reachability.m in Sources */,
-				1AB107F91A91E0A000722279 /* AlixPay.m in Sources */,
 				1A6448811A9D9F250068CE66 /* DCPropertyAggregator.m in Sources */,
 				1AB107461A91E0A000722279 /* UIView+BeeUILayout.m in Sources */,
 				1AB106D61A91E0A000722279 /* UIActivityIndicatorView+BeeUIStyle.m in Sources */,
@@ -3946,14 +3181,11 @@
 				1AB107BB1A91E0A000722279 /* NSObject+BeeHTTPRequest.m in Sources */,
 				1AB1071B1A91E0A000722279 /* UIView+LifeCycle.m in Sources */,
 				1AB107851A91E0A000722279 /* Bee_UserDefaults.mm in Sources */,
-				1AB107FC1A91E0A000722279 /* DataVerifier.m in Sources */,
 				1AB107ED1A91E0A000722279 /* CXMLNode_PrivateExtensions.m in Sources */,
 				1AB106DA1A91E0A000722279 /* UILabel+BeeUIStyle.m in Sources */,
-				1AB108261A91E0A100722279 /* ServiceShare_Weixin_Config.m in Sources */,
 				1AB107A21A91E0A000722279 /* NSDate+BeeExtension.mm in Sources */,
 				1AB1073D1A91E0A000722279 /* Bee_UILayoutContainer.m in Sources */,
 				1AB107251A91E0A000722279 /* UIView+Visibility.m in Sources */,
-				1AB108191A91E0A100722279 /* ServiceShare_SinaWeibo.m in Sources */,
 				1AB107731A91E0A000722279 /* Bee_UITemplateParserXMLImpl.m in Sources */,
 				1AB1070B1A91E0A000722279 /* Bee_UIProgressView.m in Sources */,
 				1AB107311A91E0A000722279 /* BeeUIZoomImageView+UIDataBinding.m in Sources */,
@@ -3987,17 +3219,13 @@
 				1AB108501A91E0C400722279 /* DHAPIBase.m in Sources */,
 				1A64483D1A9D99960068CE66 /* NSObject+LKModel.m in Sources */,
 				1AB107581A91E0A000722279 /* BeeUIQuery+Offset.m in Sources */,
-				1AB1081F1A91E0A100722279 /* ServiceShare_TencentWeibo.m in Sources */,
 				1AB107F31A91E0A000722279 /* ZipArchive.mm in Sources */,
 				1AB106E91A91E0A000722279 /* Bee_UIAnimationAlpha.m in Sources */,
 				1AB1076D1A91E0A000722279 /* Bee_UITemplatePackage.m in Sources */,
 				1AB106E51A91E0A000722279 /* CSSStyleSheet.m in Sources */,
 				1AB1072F1A91E0A000722279 /* BeeUISignal+BeeUICell.m in Sources */,
 				1A6448781A9D9F250068CE66 /* DCDynamicAttribute.m in Sources */,
-				1AB1081E1A91E0A100722279 /* bee.services.share.tencentweibo.md in Sources */,
 				1AB107BD1A91E0A000722279 /* Bee_HTTPConnectionPool2.m in Sources */,
-				1AB108171A91E0A100722279 /* bee.services.share.sinaweibo.m in Sources */,
-				1AB1081A1A91E0A100722279 /* ServiceShare_SinaWeibo_API.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
